@@ -30,6 +30,7 @@ input {
   margin-top: 10px;
   border-style: solid;
   border-color: black;
+  text-transform: uppercase;
 }
 
 input:focus {
