@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: mediumslateblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.add_sect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tgpc {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.input_sect {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 30px;
+}
+
+input {
+  border-radius: 5px;
+  margin-top: 10px;
+  border-style: solid;
+  border-color: black;
+}
+
+input:focus {
+  outline: none;
+}
+
+.cg, .cu {
+  width: 25px;
+}
+
+.display {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 40px;
+  background-color: white;
+  padding: 20px;
+}
+
+.display_head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.display_T {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cnd, .cud {
+  flex: 1;
+}
+
+.cud {
+  text-align: center;
+}
+
+.cgd {
+  flex: 4;
+  text-align: center;
+}
+
+.display_t {
+  display: flex;
+}
+
+.gp_c {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gp {
+  background-color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+@media (max-width: 450px) {
+
+main {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+
+.input_sect {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 30px;
+  font-size: small;
+}
+
+.cn {
+  width: 50px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.cg, .cu {
+  width: 25px;
+}
+
+.display {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 40px;
+  background-color: white;
+  padding: 20px;
+}
+
+.display_head {
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+}
+
+.display_T {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cnd, .cud {
+  flex: 1;
+}
+
+.cud {
+  text-align: center;
+}
+
+.cgd {
+  flex: 4;
+  text-align: center;
+}
+
+.display_t {
+  display: flex;
+}
+
+.gp_c {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gp {
+  background-color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 5px;
+}
+}
+
